@@ -5,4 +5,3 @@ beq = 7;  % 1*1 array?
 ub = [] ;  % syntax?
 lb = zeros(3,1);
 f = [-2;-3;5];  % careful: transform 
-[x,fval] = linprog(f,a,b,aeq,beq,lb,ub);
