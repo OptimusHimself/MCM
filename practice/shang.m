@@ -1,6 +1,7 @@
+% shang.m -- 一套框架。用来带入数据
 clc;clear;
 %指标正向化处理后数据为data1
-data1=data;
+data1=data;  %无法识别变量? what?!
 %%越小越优型处理
 index=[3,4];%越小越优指标位置,即第3和4列为越小越优型指标
 for i=1:length(index)
